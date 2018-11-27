@@ -1,0 +1,40 @@
+---
+Module:          
+  FullName:        Pods_demo
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         Pods_demo
+      IsFramework:     true
+Items:           
+  - Name:            Pods_demoVersionNumber
+    JsName:          Pods_demoVersionNumber
+    Filename:        /Users/jerryafr/Library/Developer/Xcode/DerivedData/demo-glsswgqxqtoxfwddgedenqjpiwso/Build/Intermediates.noindex/ArchiveIntermediates/demo/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/Pods_demo.framework/Headers/Pods-demo-umbrella.h
+    Module:          
+      FullName:        Pods_demo
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         Pods_demo
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            Pods_demoVersionString
+    JsName:          Pods_demoVersionString
+    Filename:        /Users/jerryafr/Library/Developer/Xcode/DerivedData/demo-glsswgqxqtoxfwddgedenqjpiwso/Build/Intermediates.noindex/ArchiveIntermediates/demo/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/Pods_demo.framework/Headers/Pods-demo-umbrella.h
+    Module:          
+      FullName:        Pods_demo
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         Pods_demo
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+...

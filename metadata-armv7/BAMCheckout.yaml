@@ -1,0 +1,2571 @@
+---
+Module:          
+  FullName:        BAMCheckout
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         Accelerate
+      IsFramework:     true
+    - Library:         AudioToolbox
+      IsFramework:     true
+    - Library:         AVFoundation
+      IsFramework:     true
+    - Library:         CoreGraphics
+      IsFramework:     true
+    - Library:         CoreImage
+      IsFramework:     true
+    - Library:         CoreMedia
+      IsFramework:     true
+    - Library:         CoreText
+      IsFramework:     true
+    - Library:         CoreVideo
+      IsFramework:     true
+    - Library:         Foundation
+      IsFramework:     true
+    - Library:         JumioCore
+      IsFramework:     true
+    - Library:         MobileCoreServices
+      IsFramework:     true
+    - Library:         QuartzCore
+      IsFramework:     true
+    - Library:         Security
+      IsFramework:     true
+    - Library:         SystemConfiguration
+      IsFramework:     true
+    - Library:         UIKit
+      IsFramework:     true
+    - Library:         c
+      IsFramework:     false
+    - Library:         'c++'
+      IsFramework:     false
+    - Library:         iconv
+      IsFramework:     false
+    - Library:         z
+      IsFramework:     false
+Items:           
+  - Name:            BAMCheckoutAppearance
+    JsName:          BAMCheckoutAppearance
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+    StaticMethods:   
+      - Name:            bamCheckoutAppearance
+        JsName:          bamCheckoutAppearance
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            BAMCheckoutBaseView
+    JsName:          BAMCheckoutBaseView
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutBaseView
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            customBoldFontName
+        JsName:          customBoldFontName
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutBaseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customBoldFontName
+          JsName:          customBoldFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCustomBoldFontName:'
+          JsName:          setCustomBoldFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            customLightFontName
+        JsName:          customLightFontName
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutBaseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customLightFontName
+          JsName:          customLightFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCustomLightFontName:'
+          JsName:          setCustomLightFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            customMediumFontName
+        JsName:          customMediumFontName
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutBaseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customMediumFontName
+          JsName:          customMediumFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCustomMediumFontName:'
+          JsName:          setCustomMediumFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            customRegularFontName
+        JsName:          customRegularFontName
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutBaseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customRegularFontName
+          JsName:          customRegularFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCustomRegularFontName:'
+          JsName:          setCustomRegularFontName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            disableBlur
+        JsName:          disableBlur
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutBaseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            disableBlur
+          JsName:          disableBlur
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+        Setter:          
+          Name:            'setDisableBlur:'
+          JsName:          setDisableBlur
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSNumber
+              WithProtocols:   
+      - Name:            foregroundColor
+        JsName:          foregroundColor
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutBaseView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            foregroundColor
+          JsName:          foregroundColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setForegroundColor:'
+          JsName:          setForegroundColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutBaseView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutBaseView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - BAMCheckoutAppearance
+    Base:            UIView
+  - Name:            BAMCheckoutCardInformation
+    JsName:          BAMCheckoutCardInformation
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            clear
+        JsName:          clear
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'getCustomField:'
+        JsName:          getCustomField
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            cardAccountNumber
+        JsName:          cardAccountNumber
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardAccountNumber
+          JsName:          cardAccountNumber
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardAccountNumber:'
+          JsName:          setCardAccountNumber
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardAccountNumberValid
+        JsName:          cardAccountNumberValid
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardAccountNumberValid
+          JsName:          cardAccountNumberValid
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCardAccountNumberValid:'
+          JsName:          setCardAccountNumberValid
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            cardCVV
+        JsName:          cardCVV
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardCVV
+          JsName:          cardCVV
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardCVV:'
+          JsName:          setCardCVV
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardExpiryDate
+        JsName:          cardExpiryDate
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardExpiryDate
+          JsName:          cardExpiryDate
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardExpiryDate:'
+          JsName:          setCardExpiryDate
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardExpiryMonth
+        JsName:          cardExpiryMonth
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardExpiryMonth
+          JsName:          cardExpiryMonth
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardExpiryMonth:'
+          JsName:          setCardExpiryMonth
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardExpiryYear
+        JsName:          cardExpiryYear
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardExpiryYear
+          JsName:          cardExpiryYear
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardExpiryYear:'
+          JsName:          setCardExpiryYear
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardHolderName
+        JsName:          cardHolderName
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardHolderName
+          JsName:          cardHolderName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardHolderName:'
+          JsName:          setCardHolderName
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardNumber
+        JsName:          cardNumber
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardNumber
+          JsName:          cardNumber
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardNumber:'
+          JsName:          setCardNumber
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardNumberGrouped
+        JsName:          cardNumberGrouped
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardNumberGrouped
+          JsName:          cardNumberGrouped
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardNumberGrouped:'
+          JsName:          setCardNumberGrouped
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardNumberMasked
+        JsName:          cardNumberMasked
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardNumberMasked
+          JsName:          cardNumberMasked
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardNumberMasked:'
+          JsName:          setCardNumberMasked
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardSortCode
+        JsName:          cardSortCode
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardSortCode
+          JsName:          cardSortCode
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+        Setter:          
+          Name:            'setCardSortCode:'
+          JsName:          setCardSortCode
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSMutableString
+              WithProtocols:   
+      - Name:            cardSortCodeValid
+        JsName:          cardSortCodeValid
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardSortCodeValid
+          JsName:          cardSortCodeValid
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCardSortCodeValid:'
+          JsName:          setCardSortCodeValid
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            cardType
+        JsName:          cardType
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCardInformation
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardType
+          JsName:          cardType
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            BAMCheckoutCreditCardType
+        Setter:          
+          Name:            'setCardType:'
+          JsName:          setCardType
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCardInformation
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            BAMCheckoutCreditCardType
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            BAMCheckoutConfiguration
+    JsName:          BAMCheckoutConfiguration
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addCustomField:title:keyboardType:regularExpression:'
+        JsName:          addCustomFieldTitleKeyboardTypeRegularExpression
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Enum
+            Name:            UIKeyboardType
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'addCustomField:title:values:required:resetValueText:'
+        JsName:          addCustomFieldTitleValuesRequiredResetValueText
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSArray
+            WithProtocols:   
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            cameraPosition
+        JsName:          cameraPosition
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cameraPosition
+          JsName:          cameraPosition
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            JumioCameraPosition
+        Setter:          
+          Name:            'setCameraPosition:'
+          JsName:          setCameraPosition
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            JumioCameraPosition
+      - Name:            cardHolderNameEditable
+        JsName:          cardHolderNameEditable
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardHolderNameEditable
+          JsName:          cardHolderNameEditable
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCardHolderNameEditable:'
+          JsName:          setCardHolderNameEditable
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            cardHolderNameRequired
+        JsName:          cardHolderNameRequired
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardHolderNameRequired
+          JsName:          cardHolderNameRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCardHolderNameRequired:'
+          JsName:          setCardHolderNameRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            cardNumberMaskingEnabled
+        JsName:          cardNumberMaskingEnabled
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cardNumberMaskingEnabled
+          JsName:          cardNumberMaskingEnabled
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCardNumberMaskingEnabled:'
+          JsName:          setCardNumberMaskingEnabled
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            customOverlay
+        JsName:          customOverlay
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            customOverlay
+          JsName:          customOverlay
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          BAMCheckoutCustomScanOverlayViewController
+              WithProtocols:   
+        Setter:          
+          Name:            'setCustomOverlay:'
+          JsName:          setCustomOverlay
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          BAMCheckoutCustomScanOverlayViewController
+              WithProtocols:   
+      - Name:            cvvRequired
+        JsName:          cvvRequired
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cvvRequired
+          JsName:          cvvRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setCvvRequired:'
+          JsName:          setCvvRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            dataCenter
+        JsName:          dataCenter
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dataCenter
+          JsName:          dataCenter
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            JumioDataCenter
+        Setter:          
+          Name:            'setDataCenter:'
+          JsName:          setDataCenter
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            JumioDataCenter
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - BAMCheckoutViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - BAMCheckoutViewControllerDelegate
+      - Name:            enableFlashOnScanStart
+        JsName:          enableFlashOnScanStart
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            enableFlashOnScanStart
+          JsName:          enableFlashOnScanStart
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setEnableFlashOnScanStart:'
+          JsName:          setEnableFlashOnScanStart
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            expiryEditable
+        JsName:          expiryEditable
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            expiryEditable
+          JsName:          expiryEditable
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setExpiryEditable:'
+          JsName:          setExpiryEditable
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            expiryRequired
+        JsName:          expiryRequired
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            expiryRequired
+          JsName:          expiryRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setExpiryRequired:'
+          JsName:          setExpiryRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            merchantApiSecret
+        JsName:          merchantApiSecret
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            merchantApiSecret
+          JsName:          merchantApiSecret
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setMerchantApiSecret:'
+          JsName:          setMerchantApiSecret
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            merchantApiToken
+        JsName:          merchantApiToken
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            merchantApiToken
+          JsName:          merchantApiToken
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setMerchantApiToken:'
+          JsName:          setMerchantApiToken
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            merchantReportingCriteria
+        JsName:          merchantReportingCriteria
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            merchantReportingCriteria
+          JsName:          merchantReportingCriteria
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setMerchantReportingCriteria:'
+          JsName:          setMerchantReportingCriteria
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            offlineToken
+        JsName:          offlineToken
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            offlineToken
+          JsName:          offlineToken
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setOfflineToken:'
+          JsName:          setOfflineToken
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            sortCodeAndAccountNumberRequired
+        JsName:          sortCodeAndAccountNumberRequired
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sortCodeAndAccountNumberRequired
+          JsName:          sortCodeAndAccountNumberRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSortCodeAndAccountNumberRequired:'
+          JsName:          setSortCodeAndAccountNumberRequired
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            soundEffect
+        JsName:          soundEffect
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            soundEffect
+          JsName:          soundEffect
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+        Setter:          
+          Name:            'setSoundEffect:'
+          JsName:          setSoundEffect
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          NSString
+              WithProtocols:   
+      - Name:            statusBarStyle
+        JsName:          statusBarStyle
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            statusBarStyle
+          JsName:          statusBarStyle
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            UIStatusBarStyle
+        Setter:          
+          Name:            'setStatusBarStyle:'
+          JsName:          setStatusBarStyle
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            UIStatusBarStyle
+      - Name:            supportedCreditCardTypes
+        JsName:          supportedCreditCardTypes
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supportedCreditCardTypes
+          JsName:          supportedCreditCardTypes
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+        Setter:          
+          Name:            'setSupportedCreditCardTypes:'
+          JsName:          setSupportedCreditCardTypes
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UInt
+      - Name:            vibrationEffectEnabled
+        JsName:          vibrationEffectEnabled
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            vibrationEffectEnabled
+          JsName:          vibrationEffectEnabled
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setVibrationEffectEnabled:'
+          JsName:          setVibrationEffectEnabled
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: 
+    Protocols:       
+    Base:            NSObject
+  - Name:            BAMCheckoutCreditCardType
+    JsName:          BAMCheckoutCreditCardType
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - BAMCheckoutCreditCardTypeAll: '0'
+      - BAMCheckoutCreditCardTypeVisa: '1'
+      - BAMCheckoutCreditCardTypeMasterCard: '2'
+      - BAMCheckoutCreditCardTypeAmericanExpress: '4'
+      - BAMCheckoutCreditCardTypeDiners: '8'
+      - BAMCheckoutCreditCardTypeDiscover: '16'
+      - BAMCheckoutCreditCardTypeJCB: '32'
+      - BAMCheckoutCreditCardTypeChinaUnionPay: '64'
+    SwiftNameFields: 
+      - All:             '0'
+      - Visa:            '1'
+      - MasterCard:      '2'
+      - AmericanExpress: '4'
+      - Diners:          '8'
+      - Discover:        '16'
+      - JCB:             '32'
+      - ChinaUnionPay:   '64'
+  - Name:            BAMCheckoutCreditCardTypeAll
+    JsName:          BAMCheckoutCreditCardTypeAll
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            BAMCheckoutCreditCardTypeAmericanExpress
+    JsName:          BAMCheckoutCreditCardTypeAmericanExpress
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            BAMCheckoutCreditCardTypeChinaUnionPay
+    JsName:          BAMCheckoutCreditCardTypeChinaUnionPay
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '64'
+  - Name:            BAMCheckoutCreditCardTypeDiners
+    JsName:          BAMCheckoutCreditCardTypeDiners
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            BAMCheckoutCreditCardTypeDiscover
+    JsName:          BAMCheckoutCreditCardTypeDiscover
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            BAMCheckoutCreditCardTypeJCB
+    JsName:          BAMCheckoutCreditCardTypeJCB
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '32'
+  - Name:            BAMCheckoutCreditCardTypeMasterCard
+    JsName:          BAMCheckoutCreditCardTypeMasterCard
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            BAMCheckoutCreditCardTypeVisa
+    JsName:          BAMCheckoutCreditCardTypeVisa
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCardInformation.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCardInformation
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            BAMCheckoutCustomScanOverlayViewController
+    JsName:          BAMCheckoutCustomScanOverlayViewController
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            cardFrame
+        JsName:          cardFrame
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            JsName:          CGRect
+      - Name:            currentCameraPosition
+        JsName:          currentCameraPosition
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Enum
+            Name:            JumioCameraPosition
+      - Name:            hasFlash
+        JsName:          hasFlash
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            hasMultipleCameras
+        JsName:          hasMultipleCameras
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            isFlashOn
+        JsName:          isFlashOn
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+      - Name:            retryScan
+        JsName:          retryScan
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopScan
+        JsName:          stopScan
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            switchCamera
+        JsName:          switchCamera
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            toggleFlash
+        JsName:          toggleFlash
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - BAMCheckoutCustomScanOverlayViewControllerDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - BAMCheckoutCustomScanOverlayViewControllerDelegate
+      - Name:            verticalCardFrameOffset
+        JsName:          verticalCardFrameOffset
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            verticalCardFrameOffset
+          JsName:          verticalCardFrameOffset
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+        Setter:          
+          Name:            'setVerticalCardFrameOffset:'
+          JsName:          setVerticalCardFrameOffset
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Float
+    StaticProperties: 
+    Protocols:       
+    Base:            UIViewController
+  - Name:            BAMCheckoutCustomScanOverlayViewControllerDelegate
+    JsName:          BAMCheckoutCustomScanOverlayViewControllerDelegate
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'bamCheckoutStoppedWithError:retryPossible:'
+        JsName:          bamCheckoutStoppedWithErrorRetryPossible
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutCustomScanOverlayViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutCustomScanOverlayViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+          - Type:            Bool
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            BAMCheckoutNavigationBarTitleImageView
+    JsName:          BAMCheckoutNavigationBarTitleImageView
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNavigationBarTitleImageView.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutNavigationBarTitleImageView
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            titleImage
+        JsName:          titleImage
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNavigationBarTitleImageView.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutNavigationBarTitleImageView
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            titleImage
+          JsName:          titleImage
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNavigationBarTitleImageView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutNavigationBarTitleImageView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+        Setter:          
+          Name:            'setTitleImage:'
+          JsName:          setTitleImage
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNavigationBarTitleImageView.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutNavigationBarTitleImageView
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIImage
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - BAMCheckoutAppearance
+    Base:            UIImageView
+  - Name:            BAMCheckoutNegativeButton
+    JsName:          BAMCheckoutNegativeButton
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNegativeButton.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutNegativeButton
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'backgroundColorForState:'
+        JsName:          backgroundColorForState
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNegativeButton.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutNegativeButton
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+          - Type:            Enum
+            Name:            UIControlState
+      - Name:            'setBackgroundColor:forState:'
+        JsName:          setBackgroundColorForState
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNegativeButton.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutNegativeButton
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+          - Type:            Enum
+            Name:            UIControlState
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            borderColor
+        JsName:          borderColor
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNegativeButton.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutNegativeButton
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            borderColor
+          JsName:          borderColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNegativeButton.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutNegativeButton
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setBorderColor:'
+          JsName:          setBorderColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutNegativeButton.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutNegativeButton
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - BAMCheckoutAppearance
+    Base:            UIButton
+  - Name:            BAMCheckoutPositiveButton
+    JsName:          BAMCheckoutPositiveButton
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutPositiveButton.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutPositiveButton
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'backgroundColorForState:'
+        JsName:          backgroundColorForState
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutPositiveButton.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutPositiveButton
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+          - Type:            Enum
+            Name:            UIControlState
+      - Name:            'setBackgroundColor:forState:'
+        JsName:          setBackgroundColorForState
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutPositiveButton.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutPositiveButton
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          UIColor
+            WithProtocols:   
+          - Type:            Enum
+            Name:            UIControlState
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            borderColor
+        JsName:          borderColor
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutPositiveButton.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutPositiveButton
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            borderColor
+          JsName:          borderColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutPositiveButton.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutPositiveButton
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setBorderColor:'
+          JsName:          setBorderColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutPositiveButton.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutPositiveButton
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - BAMCheckoutAppearance
+    Base:            UIButton
+  - Name:            BAMCheckoutScanOverlay
+    JsName:          BAMCheckoutScanOverlay
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutScanOverlay
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+    StaticMethods:   
+    InstanceProperties: 
+      - Name:            borderColor
+        JsName:          borderColor
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutScanOverlay
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            borderColor
+          JsName:          borderColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutScanOverlay
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setBorderColor:'
+          JsName:          setBorderColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutScanOverlay
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+      - Name:            textColor
+        JsName:          textColor
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutScanOverlay
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            textColor
+          JsName:          textColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutScanOverlay
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+        Setter:          
+          Name:            'setTextColor:'
+          JsName:          setTextColor
+          Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutScanOverlay.h
+          Module:          
+            FullName:        BAMCheckout.BAMCheckoutScanOverlay
+            IsPartOfFramework: true
+            IsSystemModule:  false
+            Libraries:       
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              JsName:          UIColor
+              WithProtocols:   
+    StaticProperties: 
+    Protocols:       
+      - BAMCheckoutAppearance
+    Base:            UIView
+  - Name:            BAMCheckoutViewController
+    JsName:          BAMCheckoutViewController
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithConfiguration:'
+        JsName:          initWithConfiguration
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            JsName:          BAMCheckoutConfiguration
+            WithProtocols:   
+      - Name:            sdkVersion
+        JsName:          sdkVersion
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'updateConfiguration:'
+        JsName:          updateConfiguration
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            JsName:          BAMCheckoutConfiguration
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+    Base:            JMNavigationController
+  - Name:            BAMCheckoutViewControllerDelegate
+    JsName:          BAMCheckoutViewControllerDelegate
+    Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+    Module:          
+      FullName:        BAMCheckout.BAMCheckoutViewController
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'bamCheckoutViewController:didCancelWithError:scanReference:'
+        JsName:          bamCheckoutViewControllerDidCancelWithErrorScanReference
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          BAMCheckoutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSError
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'bamCheckoutViewController:didFinishScanWithCardInformation:scanReference:'
+        JsName:          bamCheckoutViewControllerDidFinishScanWithCardInformationScanReference
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          BAMCheckoutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          BAMCheckoutCardInformation
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+      - Name:            'bamCheckoutViewController:didStartScanAttemptWithScanReference:'
+        JsName:          bamCheckoutViewControllerDidStartScanAttemptWithScanReference
+        Filename:        /Users/jerryafr/Desktop/jumio/nsjumioplugin/demo/platforms/ios/Pods/JumioMobileSDK/frameworks/BAMCheckout.framework/Headers/BAMCheckoutViewController.h
+        Module:          
+          FullName:        BAMCheckout.BAMCheckoutViewController
+          IsPartOfFramework: true
+          IsSystemModule:  false
+          Libraries:       
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            JsName:          BAMCheckoutViewController
+            WithProtocols:   
+          - Type:            Interface
+            JsName:          NSString
+            WithProtocols:   
+    StaticMethods:   
+    InstanceProperties: 
+    StaticProperties: 
+    Protocols:       
+      - NSObjectProtocol
+...
