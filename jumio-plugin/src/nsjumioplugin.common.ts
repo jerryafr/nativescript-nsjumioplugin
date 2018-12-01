@@ -4,9 +4,6 @@ import * as dialogs from 'tns-core-modules/ui/dialogs';
 
 export class Common extends Observable {
   public message: string;
-  private cancelWithError;
-  private finishInitWithError;
-  private finishedScan;
 
   constructor() {
     super();
@@ -14,11 +11,6 @@ export class Common extends Observable {
   }
 
   public start(merchantApiToken, merchantApiSecret, customerEmail, cancelWithError, finishInitWithError, finishedScan) {
-    this.cancelWithError = cancelWithError;
-    this.finishInitWithError = finishInitWithError;
-    this.finishedScan = finishedScan;
-
-    return "Hello, NS";
   }
 }
 
