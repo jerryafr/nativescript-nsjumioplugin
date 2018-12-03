@@ -4,6 +4,7 @@ export class Nsjumioplugin extends Common {
     private cancelWithError;
     private finishInitWithError;
     private finishedScan;
+    netverifyViewController: NetverifyViewController;
 
     constructor() {
         super();
@@ -18,23 +19,27 @@ export class Nsjumioplugin extends Common {
 
         console.log("EEEEEEEEEEEE greet 4");
 
-        const that = this;
         const config = NetverifyConfiguration.new();
         config.merchantApiToken = merchantApiToken;
         config.merchantApiSecret = merchantApiSecret;
-        config.delegate = NsjumiopluginDelegateImpl.new().initWithCallback(this.rootVC(), (netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string) => {
-            that.finishedScan(documentData);
-        });
+        config.delegate = NsjumiopluginDelegateImpl.createWithOwnerResultCallback(
+            new WeakRef(this),
+            this.rootVC(),
+            (netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string) => {
+                this.finishedScan(documentData);
+            });
         config.customerId = customerEmail;
 
         try {
-            const netverifyViewController = NetverifyViewController.alloc().initWithConfiguration(config);
+            this.netverifyViewController = NetverifyViewController.alloc().initWithConfiguration(config);
 
             this.rootVC().presentViewControllerAnimatedCompletion(
-                netverifyViewController, false, function completion() {
-                // this._raiseShownModallyEvent(parent, context, closeCallback);
-                console.log('EEEEEEEEEEEE done');
-            });
+                this.netverifyViewController,
+                false,
+                () => {
+                    // this._raiseShownModallyEvent(parent, context, closeCallback);
+                    console.log('EEEEEEEEEEEE done');
+                });
         } catch (e) {
             console.log('EEEEEEEEEEEE EXCEPTION HANDLED:', e);
         }
@@ -47,29 +52,38 @@ export class Nsjumioplugin extends Common {
 
 }
 
-
+@ObjCClass(NetverifyViewControllerDelegate)
 class NsjumiopluginDelegateImpl extends NSObject implements NetverifyViewControllerDelegate {
 
-    static new(): NsjumiopluginDelegateImpl {
-      return <NsjumiopluginDelegateImpl>super.new();
-    }
+    private _owner: WeakRef<Nsjumioplugin>;
     private _callback: (netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string) => void;
     _vc: UIViewController;
 
-    public initWithCallback(vc: UIViewController, callback: (netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string) => void): NsjumiopluginDelegateImpl {
-      this._callback = callback;
-      this._vc = vc;
-      return this;
+    static new(): NsjumiopluginDelegateImpl {
+        return <NsjumiopluginDelegateImpl>super.new();
+    }
+
+    public static createWithOwnerResultCallback(owner: WeakRef<Nsjumioplugin>, vc: UIViewController, callback: (netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string) => void): NsjumiopluginDelegateImpl {
+      const delegate = <NsjumiopluginDelegateImpl>NsjumiopluginDelegateImpl.new();
+      delegate._owner = owner;
+      delegate._callback = callback;
+      delegate._vc = vc;
+      return delegate;
     }
 
     netverifyViewControllerDidCancelWithErrorScanReference(netverifyViewController: NetverifyViewController, error: NetverifyError, scanReference: string): void {
         console.log("EEEEEEEEEEE 1");
         this._vc.dismissViewControllerAnimatedCompletion(true, null);
+        this._owner.get().netverifyViewController.destroy();
     }
 
     netverifyViewControllerDidFinishInitializingWithError?(netverifyViewController: NetverifyViewController, error: NetverifyError): void {
         console.log("EEEEEEEEEEE 2");
         // this.finishInitWithError();
+        if (error) {
+            this._vc.dismissViewControllerAnimatedCompletion(true, null);
+            this._owner.get().netverifyViewController.destroy();
+        }
     }
 
     netverifyViewControllerDidFinishWithDocumentDataScanReference(netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string): void {
@@ -133,5 +147,6 @@ class NsjumiopluginDelegateImpl extends NSObject implements NetverifyViewControl
         */
 
         this._vc.dismissViewControllerAnimatedCompletion(true, null);
+        this._owner.get().netverifyViewController.destroy();
     }
   }

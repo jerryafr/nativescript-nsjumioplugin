@@ -1,9 +1,3 @@
-source 'https://github.com/CocoaPods/Specs.git'
-
 platform :ios, '10.0'
-
-use_frameworks! # Required for proper framework handling
-
-pod 'JumioMobileSDK', '~>2.14' # If you use BAM Checkout along Netverify in your app. Frameworks supporting device architectures only.
-
-pod 'JumioMobileSDK/Netverify', '~>2.14' # Specify Netverify as subspec to only use Netverify, Fastfill or Document Verification
+use_frameworks!
+pod 'JumioMobileSDK/Netverify', '~>2.14'
