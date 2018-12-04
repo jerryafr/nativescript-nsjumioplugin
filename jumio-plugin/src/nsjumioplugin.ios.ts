@@ -1,10 +1,14 @@
 import { Common } from './nsjumioplugin.common';
+import { View } from 'tns-core-modules/ui/page/page';
 
 export class Nsjumioplugin extends Common {
     private cancelWithError;
     private finishInitWithError;
     private finishedScan;
     netverifyViewController: NetverifyViewController;
+
+    private delegate;
+    private config;
 
     constructor() {
         super();
@@ -17,17 +21,19 @@ export class Nsjumioplugin extends Common {
         this.finishInitWithError = finishInitWithError;
         this.finishedScan = finishedScan;
 
-        console.log("EEEEEEEEEEEE greet 4");
+        console.log("EEEEEEEEEEEE greet 7");
 
-        const config = NetverifyConfiguration.new();
+        let config = this.config;
+        config = NetverifyConfiguration.new();
         config.merchantApiToken = merchantApiToken;
         config.merchantApiSecret = merchantApiSecret;
-        config.delegate = NsjumiopluginDelegateImpl.createWithOwnerResultCallback(
+        this.delegate = NsjumiopluginDelegateImpl.createWithOwnerResultCallback(
             new WeakRef(this),
             this.rootVC(),
             (netverifyViewController: NetverifyViewController, documentData: NetverifyDocumentData, scanReference: string) => {
                 this.finishedScan(documentData);
             });
+        config.delegate = this.delegate;
         config.customerId = customerEmail;
 
         try {
