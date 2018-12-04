@@ -20,11 +20,11 @@ export function onTap(args: observable.EventData) {
     const email = 'test@example.com';
     const merchantApiToken = 'GET_IT_FROM_JUMIO_PANEL';
     const merchantApiSecret = 'GET_IT_FROM_JUMIO_PANEL';
-    nsjumioplugin.start(merchantApiToken, merchantApiSecret, email, function () {
+    nsjumioplugin.start(merchantApiToken, merchantApiSecret, email, () => {
       // cancelWithError
-    }, function() {
+    }, () => {
       // finishInitWithError
-    }, function() {
+    }, () => {
       // finishedScan
     });
 }
